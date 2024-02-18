@@ -1,4 +1,43 @@
-"vim.normalModeKeyBindingsNonRecursive": [
+{
+  "workbench.iconTheme": "vscode-icons",
+  "leetcode-problem-rating.workspaceFolder": "",
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "ComicShannsMono Nerd Font",
+  "vsicons.dontShowNewVersionMessage": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Dracula",
+  "git.autofetch": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.external.linuxExec": "kitty",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "editor.suggest.insertMode": "replace",
+  "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "launch": {},
+  "[json]": {},
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "update.showReleaseNotes": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.lineNumbers": "relative",
+
+  "vim.leader": "<Space>",
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
     // switch b/w buffers
     { "before": ["<S-h>"], "commands": [":bprevious"] },
@@ -67,4 +106,6 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.activityBar.location": "hidden"
+}
